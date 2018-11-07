@@ -2,6 +2,8 @@
 
 ### Resources
 
+<a href="https://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learningk</a>
+
 ### Structure
 
 * Getting Started in R: Basic Functions
