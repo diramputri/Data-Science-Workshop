@@ -13,3 +13,6 @@
 * Logistic Regression
 
 * Cross-Validation and Bootstrap
+
+* Case Studies
+
