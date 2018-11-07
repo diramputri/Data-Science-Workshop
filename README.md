@@ -4,8 +4,12 @@
 
 ### Structure
 
-Session One: Getting Started in R and Linear Models
+* Getting Started in R: Basic Functions
 
-Session Two: Classification
+* Simple Linear Regression
 
-Session Three: Decision Trees and Support Vector Machines
+* Multiple Linear Regression
+
+* Logistic Regression
+
+* Cross-Validation and Bootstrap
