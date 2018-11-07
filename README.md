@@ -2,7 +2,9 @@
 
 ### Resources
 
-<a href="https://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learningk</a>
+<a href="https://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning (ISLR) -- Full Text</a>
+
+<a href="https://github.com/diramputri/Intro-To-Statistical-Learning">Some ISLR Problems Worked Out</a>
 
 ### Structure
 
