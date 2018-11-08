@@ -16,7 +16,7 @@ About 1.5 - 2 hours
 
 ### Structure
 
-* Getting Started in R: Basic Functions
+* Getting Started in R: Basic Functions and Installing Packages/Libraries
 
 * Simple Linear Regression
 
