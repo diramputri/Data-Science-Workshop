@@ -6,6 +6,10 @@
 
 <a href="https://github.com/diramputri/Intro-To-Statistical-Learning">Some ISLR Problems Worked Out</a>
 
+### Time
+
+About 1.5 - 2 hours
+
 ### Structure
 
 * Getting Started in R: Basic Functions
