@@ -1,5 +1,9 @@
 # Data-Science-Workshops
 
+### Requirements
+
+This is a workshop completely for beginners- no coding or machine learning experience is needed. However, participants should have R and RStudio installed prior to the workshop. 
+
 ### Resources
 
 <a href="https://www-bcf.usc.edu/~gareth/ISL/">An Introduction to Statistical Learning (ISLR) -- Full Text</a>
