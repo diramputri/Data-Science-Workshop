@@ -2,7 +2,7 @@
 
 ### Requirements
 
-This is a workshop completely for beginners- no coding or machine learning experience is needed. However, participants should have R and RStudio installed prior to the workshop. 
+This is a workshop completely for beginners- no coding or machine learning experience is needed. However, participants should have R and RStudio installed prior to the workshop. Bringing pencil and paper is also highly recommended, as there are many definitions and equations involved in the workshop.
 
 ### Resources
 
@@ -24,7 +24,7 @@ About 1.5 - 2 hours
 
 * Logistic Regression
 
-* Cross-Validation and Bootstrap
+* Resampling / Cross-Validation
 
 * Case Studies
 
