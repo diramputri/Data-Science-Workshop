@@ -15,6 +15,8 @@ Students will be familiarized with the R statistical computing environment - it'
 
 <a href="https://github.com/diramputri/Intro-To-Statistical-Learning">Some ISLR Problems Worked Out</a>
 
+This repository!!
+
 ### Time
 
 About 1.5 - 2 hours
