@@ -1,4 +1,5 @@
-# Data-Science-Workshops
+# R You Ready
+## An Introductory Data Science Workshop in RStudio
 
 ### Requirements
 
