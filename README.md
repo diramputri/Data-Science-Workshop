@@ -3,7 +3,7 @@
 
 ### Requirements
 
-This is a workshop completely for beginners- no coding or machine learning experience is needed. However, participants should have both R and RStudio installed prior to the workshop. This is important for saving time - RStudio takes a while to install, and we want to get going as soon as possible! The download links are below. In addition, students should plan to bring their own laptops. This is optional, but bringing pen and paper is highly suggested! I have a PowerPoint that includes definitions and equations; note-taking would give participants a more valuable workshop experience.
+This is a workshop completely for beginners- no coding or machine learning experience is needed. However, students should plan to bring their own laptops with both R and RStudio installed prior to the workshop. This is important for saving time - RStudio takes a while to install, and we want to get going as soon as possible! The download links are below. This is optional, but bringing pen and paper is highly suggested! I have a PowerPoint that includes definitions and equations; note-taking would give participants a more valuable workshop experience.
 
 R: https://cran.cnr.berkeley.edu/
 
