@@ -1,8 +1,8 @@
+setwd("~/ACMworkshop2019")
+
 ## testing that R works
 
-install.packages("ISLR")
 install.packages("mlbench")
-library(ISLR)
 library(mlbench)
 
 # ------------------------------------------------------------------------------------- #
@@ -164,5 +164,46 @@ lasso.RMSE
 
 # ------------------------------------------------------------------------------------- #
 
+## TITANIC SURVIVAL PREDICTION
 ## Logistic Regression
+
+# import data from "titanic" library
+install.packages("titanic")
+library(titanic)
+data=titanic_train #891 observations
+# set up train/test split ratio
+set.seed(10)
+train=sample(nrow(data),3*nrow(data)/4)
+#668 observations to train
+#223 observations to test
+
+# glm(Response~Predictor,data=...,family=binomial,subset=train)
+
+log_reg=glm(Survived~Age,data=data,family=binomial,subset=train)
+
+# cross-validation
+
+test=data[-train,]
+# create vector of probabilities
+prob=predict(log_reg,type="response",test)
+# create vector of "Did Not Survive" with the same number of rows as test set
+predict=rep("Did Not Survive",nrow(test))
+# replace "Did Not Survive" to "Survived" if probability exceeded 0.5
+predict[prob>0.5]="Survived"
+# Confusion matrix
+table(predict,test$Survived)
+  
+# logistic regression with a dummy variable
+
+data$Sex <- ifelse(data$Sex == "male", 1, 0)
+# male --> 1
+# female --> 0
+
+log_reg2=glm(Survived~Age+Sex,data=data,family=binomial,subset=train)
+test=data[-train,]
+prob=predict(log_reg2,type="response",test)
+predict=rep("Did Not Survive",nrow(test))
+predict[prob>0.5]="Survived"
+# Confusion matrix
+table(predict,test$Survived)
 
