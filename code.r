@@ -11,6 +11,7 @@ library(mlbench)
 # We will predict Boston Housing prices
 
 # load data set from mlbench library
+data("BostonHousing")
 data=BostonHousing
 #view data
 View(data)
